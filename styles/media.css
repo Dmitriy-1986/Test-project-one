@@ -1,0 +1,106 @@
+@media (max-width: 1000px) {
+    .form-flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-indent: 0;
+    }
+
+    fieldset {
+        text-indent: 0;
+        width: 80%;
+    }
+    
+    textarea {
+        width: 220px;
+    } 
+
+    button {
+    width: 224px;
+    margin-left: 0;
+    }      
+}
+
+@media (max-width: 790px) {
+    nav ul {
+        justify-content: space-evenly;
+    }
+    
+    menu {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #menu-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: none;
+        width: 100%;
+        background-color: rgb(143, 143, 143);
+        border-top-right-radius: 0px;
+        color: white;
+        height: 43px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    #items {
+        text-align: center;
+        border-bottom-right-radius: 0px;
+        border: none;
+        width: 100%;
+        padding: 15px 0 15px 0;
+        background-color: #ececec;
+    }
+    
+    #items p {
+        padding-bottom: 10px;
+        font-weight: 700;
+        border-bottom: 1px dashed rgb(143, 143, 143);
+    }
+    
+    #items p a {
+        color: black;
+    }
+    
+    #items p a:hover {
+        color: #747474;
+    }
+
+    section {
+        background-color: white;
+    }
+
+    .title-flex-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #menu-section-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        border: none;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-bottom-right-radius: 0px;
+        color: black;
+        height: 43px;
+        text-align: left;
+       margin-left: 0;
+    }
+    
+    #menu-section-header-hr {
+       display: none;
+    
+    }
+}
