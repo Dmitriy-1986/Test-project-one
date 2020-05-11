@@ -1,2 +1,2 @@
 # TestWorkTogetherNetwork
- https://dmitriy-1986.github.io/TestWorkTogetherNetwork/.
+https://dmitriy-1986.github.io/Test-project-one/.
